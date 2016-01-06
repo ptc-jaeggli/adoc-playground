@@ -4,7 +4,7 @@
 
 This is a asciidoc test.
 
-.A simple table
+
 |=====
 |a|b|c
 |d|r|e
