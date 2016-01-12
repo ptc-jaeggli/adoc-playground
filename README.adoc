@@ -28,19 +28,19 @@ As discussed previously, our documentation solution should have the following pr
 
 === Proposed solution based on asciidoc
 
-- Store system documents on Github as asciidoc documents
--- Possible alternative: Markdown
-- VC, branching, commenting, and the whole authoring workflow are covered by Github toolchain (Pull requests etc)
-- Locally, asciidoc files can be rendered using asciidoctor, pandoc e.g.
--- Simple toolchain and installation guide could easily be set up
-- Documents can be authored in markup language either in the browser or locally
--- In-browser convenient preview, local editing allows for offline work
+* Store system documents on Github as asciidoc documents
+** Possible alternative: Markdown
+* VC, branching, commenting, and the whole authoring workflow are covered by Github toolchain (Pull requests etc)
+* Locally, asciidoc files can be rendered using asciidoctor, pandoc e.g.
+** Simple toolchain and installation guide could easily be set up
+* Documents can be authored in markup language either in the browser or locally
+** In-browser convenient preview, local editing allows for offline work
 
 .Drawbacks
-- Can't download pdf from Github webpage directly (convenience feature)
--- Limited workaround: Reading mode in safari 
-- Needs github login
--- For non-engineers, this would introduce a new tool
+* Can't download pdf from Github webpage directly (convenience feature)
+** Limited workaround: Reading mode in safari 
+* Needs github login
+** For non-engineers, this would introduce a new tool
 
 === AsciiDoc vs MarkDown
 
