@@ -38,7 +38,7 @@ As discussed previously, our documentation solution should have the following pr
 
 === AsciiDoc vs MarkDown
 
-- Markdown is a bit more mature, is used more widely and is simpler
+- Markdown is a bit more popular, has more tools and is simpler
 - Asciidoc supports more features to allow writing even complex books
 
 -> Github supports both
