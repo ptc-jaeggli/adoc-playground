@@ -1,6 +1,6 @@
 
 
-== Adoc-playground
+== ASCIIDOC file format
 
 This is a asciidoc test.
 
@@ -12,8 +12,35 @@ This is a asciidoc test.
 
 more text
 
-== Next section
+== Requirements
 
-blabla
+As discussed previously, our documentation solution should have the following properties and features:
 
-=== Subsection
+. Stored on a server, accessible by relevant people
+.. Should be possible to link from confluence / email to the document
+. Version control
+. Commenting on changes
+. Collaborative editing without conflicts
+. Branching (e.g. different specs for different releases etc)
+. Generate PDF for sharing to wider audience
+. Offline editing
+
+
+=== Proposed solution based on asciidoc
+
+- Store system documents on Github as asciidoc documents
+-- Possible alternative: Markdown
+- VC, branching, commenting, and the whole authoring process are covered by Github toolchain (Pull requests etc)
+- Locally, asciidoc files can be rendered using asciidoctor, pandoc e.g.
+-- Simple toolchain and installation guide could easily be set up
+- Documents can be authored in markup language either in the browser or locally
+-- In-browser convenient preview, local editing allows for offline work
+
+=== AsciiDoc vs MarkDown
+
+- Markdown is a bit more mature, is used more widely and is simpler
+- Asciidoc supports more features to allow writing even complex books
+
+-> Github supports both
+
+
