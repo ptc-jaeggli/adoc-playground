@@ -30,7 +30,7 @@ As discussed previously, our documentation solution should have the following pr
 
 - Store system documents on Github as asciidoc documents
 -- Possible alternative: Markdown
-- VC, branching, commenting, and the whole authoring process are covered by Github toolchain (Pull requests etc)
+- VC, branching, commenting, and the whole authoring workflow are covered by Github toolchain (Pull requests etc)
 - Locally, asciidoc files can be rendered using asciidoctor, pandoc e.g.
 -- Simple toolchain and installation guide could easily be set up
 - Documents can be authored in markup language either in the browser or locally
