@@ -36,6 +36,9 @@ As discussed previously, our documentation solution should have the following pr
 - Documents can be authored in markup language either in the browser or locally
 -- In-browser convenient preview, local editing allows for offline work
 
+Missing (convenience-) feature: Can't download pdf from Github webpage directly
+- Limited workaround: Reading mode in safari 
+
 === AsciiDoc vs MarkDown
 
 - Markdown is a bit more popular, has more tools and is simpler
