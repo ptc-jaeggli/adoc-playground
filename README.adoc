@@ -21,7 +21,7 @@ As discussed previously, our documentation solution should have the following pr
 . Version control
 . Commenting on changes
 . Collaborative editing without conflicts
-. Branching (e.g. different specs for different releases etc)
+. Branching, tagging (e.g. different specs for different releases etc)
 . Generate PDF for sharing to wider audience
 . Offline editing
 
@@ -30,7 +30,7 @@ As discussed previously, our documentation solution should have the following pr
 
 * Store system documents on Github as asciidoc documents
 ** Possible alternative: Markdown
-* VC, branching, commenting, and the whole authoring workflow are covered by Github toolchain (Pull requests etc)
+* VC, branching, tagging, commenting, and the whole authoring workflow are covered by Github toolchain (Pull requests etc)
 * Locally, asciidoc files can be rendered using asciidoctor, pandoc e.g.
 ** Simple toolchain and installation guide could easily be set up
 * Documents can be authored in markup language either in the browser or locally
@@ -41,6 +41,10 @@ As discussed previously, our documentation solution should have the following pr
 ** Limited workaround: Reading mode in safari 
 * Needs github login
 ** For non-engineers, this would introduce a new tool
+
+.Open questions
+* One repo for all documents, or per document
+** Tags are always for entire repo
 
 === AsciiDoc vs MarkDown
 
