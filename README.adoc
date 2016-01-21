@@ -38,7 +38,7 @@ As discussed previously, our documentation solution should have the following pr
 
 .Drawbacks
 * Can't download pdf from Github webpage directly (convenience feature)
-** Limited workaround: Reading mode in safari 
+** Workarounds: java script booklet to remove the frames etc, and print from browser to pdf
 * Needs github login
 ** For non-engineers, this would introduce a new tool
 
